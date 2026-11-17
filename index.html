@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> MY FIRST HTML Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        h2 {
+            color: #d27d54;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Welcome to my page</h1>
+
+    <p>
+        Hello! I am a Business Information Technology (BIT) student at Laurea University Of Applied Science.
+        I am learning web development and programming. I am learning how
+        digital technologies and application can solve problems and help organizations
+        work better. I am especially interested in sustainable software
+        development and how technology can be built to be efficient, convinent and
+        accessible to everyone.
+    </p>
+
+    <img src="sadik.jpeg" width="200" height="230" alt="Sadikshya Nagarkoti">
+
+    <h2>My Hobbies</h2>
+
+    <p>
+        My interests include web development, programming, and technology trends.
+        I am particularly interested in creating innovative solutions and staying updated
+        with the latest advancements in the field.
+    </p>
+
+    <table>
+        <tr>
+            <th>Course Name</th>
+            <th>What I Am Learning</th>
+        </tr>
+        <tr>
+            <td>Finnish Language</td>
+            <td>Basic Finnish communication</td>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>HTML and CSS</td>
+        </tr>
+    </table>
+
+    <h2>Contact Me</h2>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>CSS Transitions</h2>
+    <button class="transition-button">Hover me</button>
+
+    <h2>CSS Animations</h2>
+    <div class="animation-box"></div>
+
+    <h2>CSS Pseudo-classes</h2>
+    <ul class="pseudo-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <h2>CSS Filters</h2>
+    <img src="sadik.jpeg" alt="Sample Image" class="filter-image" width="200" height="230">
+
+    <h2>CSS Pseudo-elements</h2>
+    <blockquote class="quote">
+        This is a sample quote.
+    </blockquote>
+
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <p>Copyright 2026</p>
+    </footer>
+
+    <h2>CSS Grid Layout</h2>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+
+    <h2>CSS Flexbox Layout</h2>
+
+    <div class="flex-container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>CSS Media Queries</h2>
+
+    <div class="responsive-box">
+        Resize the window to see the effect
+    </div>
+
+    <h2>Responsive Layout</h2>
+
+    <div class="responsive-container">
+        <div class="column">Column 1</div>
+        <div class="column">Column 2</div>
+    </div>
+
+    <h2>Responsive Image</h2>
+
+    <img src="sadik.jpeg" alt="Responsive Image" class="responsive-image">
+
+    <h2>Media Queries</h2>
+
+    <div class="media-query-box">
+        Resize the window to see the effect
+    </div>
+
+    <h2>Responsive Navigation Bar</h2>
+
+    <nav class="responsive-nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+
+        <ul class="nav-list" id="navList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2>Validate Your Responsive Design</h2>
+
+    <p>
+        Test your responsive design using browser developer tools.
+    </p>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navList").classList.toggle("active");
+        }
+    </script>
+
+    <!-- Bootstrap Task 1: Responsive Navbar -->
+
+    <h2>Bootstrap Navbar</h2>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">Brand</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bootstrap Task 2: Grid Layout -->
+
+    <h2>Bootstrap Grid Layout</h2>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-12">Column 1</div>
+            <div class="col-md-4 col-12">Column 2</div>
+            <div class="col-md-4 col-12">Column 3</div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap Task 3: Buttons -->
+
+    <h2>Bootstrap Buttons</h2>
+
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+
+    <!-- Bootstrap Task 4: Card -->
+
+    <h2>Bootstrap Card</h2>
+
+    <div class="card" style="width: 18rem;">
+
+        <img src="sadik.jpeg" class="card-img-top" alt="Sadikshya">
+
+        <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+
+            <p class="card-text">
+                This is a simple card example using Bootstrap.
+            </p>
+
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap Task 5: Alert -->
+
+    <h2>Bootstrap Alert</h2>
+
+    <div class="alert alert-warning" role="alert">
+        This is a warning alert—check it out!
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
